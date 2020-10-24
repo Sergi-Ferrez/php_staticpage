@@ -7,10 +7,10 @@
 
 <body>
     <?php
-        include ('include-php/header.php');
-        
-        
+        include ('include-php/header.php');      
+        echo '<img style="width: 100%;margin-top:-110px;margin-bottom:50px" src="img/header-img.jpg"/>';
+        include ('include-php/content.php');
+        include('include-php/footer.php')
     ?>
 </body>
-
 </html>

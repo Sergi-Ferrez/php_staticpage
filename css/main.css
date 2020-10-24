@@ -1,21 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: #0D1321;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer *, footer a:hover{
+    text-decoration: none;
+    color: #F0EBD8;
+}
+
+article{
+    padding: 15px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+article p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.header {
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-width: 0;
+    border-bottom-width: 10px;
+    border-style: solid;
+    border-color: #0D1321;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.row { /* Solucion de problema con bootstrap */
+    margin: 0;
+}
+
 .flx_center {
     display: flex;
     margin: auto;
     text-align: center;
 }
 
-
 #webTitle {
-    margin: auto;
+    padding-left: 5rem;
 }
 
 #menu {
     margin: auto;
+    margin-right: 0;
     padding: 0;
+    padding-right: 5rem;
+    text-align: right;
 }
+
 #menu li{
     display: inline;
+    margin: 0.3rem;
 }
+
 #menu li a {
     text-decoration: none;
     color: black;
