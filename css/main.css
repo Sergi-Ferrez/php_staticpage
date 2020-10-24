@@ -1,0 +1,22 @@
+.flx_center {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+#webTitle {
+    margin: auto;
+}
+
+#menu {
+    margin: auto;
+    padding: 0;
+}
+#menu li{
+    display: inline;
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
